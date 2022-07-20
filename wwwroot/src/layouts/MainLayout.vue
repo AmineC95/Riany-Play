@@ -12,10 +12,15 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>
+          <img
+            alt="Rainy Play logo"
+            src="~assets/logo.svg"
+            style="width: 150px; height: auto"
+          ></div>
       </q-toolbar>
     </q-header>
 
@@ -28,11 +33,11 @@
         <q-item-label
           header
         >
-          Essential Links
+          Menu
         </q-item-label>
 
         <EssentialLink
-          v-for="link in essentialLinks"
+          v-for="link in Menu"
           :key="link.title"
           v-bind="link"
         />
@@ -51,47 +56,33 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'Accueil',
+    icon: 'home',
+    link: '/'
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Recherche',
+    icon: 'research',
+    link: '/Research'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'Bibliothèque',
+    icon: 'fa-library',
+    link: '/Library'
+  },
+
+
+  {
+    title: 'Créer une playlist',
+    icon: 'plus',
+    link: '/Playlist'
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
+    title: 'Titre aimé',
     icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
+    link: '/Likes'
+  },
+
 ]
 
 export default defineComponent({
@@ -105,7 +96,7 @@ export default defineComponent({
     const leftDrawerOpen = ref(false)
 
     return {
-      essentialLinks: linksList,
+      Menu: linksList,
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value

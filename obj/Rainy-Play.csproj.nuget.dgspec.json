@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Rainy-Play\\Rainy-Play.csproj": {}
+    "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Riany-Plays\\Rainy-Play.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Rainy-Play\\Rainy-Play.csproj": {
+    "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Riany-Plays\\Rainy-Play.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Rainy-Play\\Rainy-Play.csproj",
+        "projectUniqueName": "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Riany-Plays\\Rainy-Play.csproj",
         "projectName": "Rainy-Play",
-        "projectPath": "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Rainy-Play\\Rainy-Play.csproj",
+        "projectPath": "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Riany-Plays\\Rainy-Play.csproj",
         "packagesPath": "C:\\Users\\Amine_2.0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Rainy-Play\\obj\\",
+        "outputPath": "C:\\Users\\Amine_2.0\\source\\Rainy-Play\\Riany-Plays\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
